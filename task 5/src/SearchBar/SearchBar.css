@@ -1,0 +1,136 @@
+.wrapper-0 {
+    margin-top: 17px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #d9d9d9;
+}
+
+.wrapper-1 {
+    padding-left: 9px;
+    padding-right: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 419px;
+    align-items: center;
+}
+
+.search-line {
+    width: 313px;
+    height: 32px;
+    border-radius: 8px;
+    background: #ECF1F7;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search-button {
+    width: 68px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #FFDD2D;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #d0d31b;
+}
+
+.wrapper-2 {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-bar {
+    padding-left: 15px;
+    border-radius: 8px;
+    border-top: 1px solid #d9d9d9;
+    width: 415px;
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.movie-bar:hover {
+    background-color: #d9d9d9;
+}
+
+.movie-name {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.movie-info {
+    color: #6C6C6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.movie-bar-parent{
+    background: white;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+.movie-bar-footer {
+    width: 415px;
+    border-top: 1px solid #d9d9d9;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.footer-text {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-button {
+    width: fit-content;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #FFDD2D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-button:hover {
+    background-color: #d0d31b;
+}
+
+.movie-bar-selected {
+    border-radius: 8px;
+    background-color: #d5e4f9;
+}

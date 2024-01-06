@@ -1,0 +1,86 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gap-15-wrapper {
+    gap: 15px;
+}
+
+.gap-10-wrapper {
+    gap: 10px;
+}
+
+.edit-wrapper {
+    width: fit-content;
+    padding: 1px 8px;
+    height: 32px;
+    border-radius: 8px;
+    gap: 8px;
+    cursor: pointer;
+    background-color: #ECF1F7;
+}
+
+.edit-wrapper:hover {
+    background-color: #d9d9d9;
+}
+
+.movie-page-header-wrapper {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-info-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.main-info-wrapper img {
+    width: 200px;
+    height: 300px;
+}
+
+.gap-20-wrapper {
+    gap: 20px;
+}
+
+.gap-5-wrapper {
+    gap: 5px;
+}
+
+.actors-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-info-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 293px;
+}
+
+.movie-main-info-wrapper {
+    padding: 0 20px 0 20px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.description-title {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.rating {
+    gap: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
