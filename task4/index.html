@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml"
+    href="https://yt3.googleusercontent.com/3kHKTg9kfhyBHIivM97YHghij7kXETAoID4TSFoZTSn3jROjprw39GxtmFQfEVNBy3ZeyuHchg=s900-c-k-c0x00ffffff-no-rj" />
+    <title>Таверна героев Азерота</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="logo__inner"><div class="preloader"></div></div>
+      </div>
+      <button class="start-btn" onclick="setUpStartCards()">
+        Выгнать проходимцев
+      </button>
+    </header>
+    <div class="content">
+      <div class="left">
+        <form class="add-hero-card">
+          <div class="add-hero-card__title">
+            <p>Пригласить героя в таверну</p>
+          </div>
+          <input
+            class="add-hero-card__card-data"
+            type="text"
+            id="name"
+            placeholder="Имя"
+            required
+          />
+          <input
+            class="add-hero-card__card-data"
+            type="text"
+            id="url"
+            placeholder="Аватарка на фоне горячих источников"
+          />
+          <textarea
+            class="add-hero-card__card-data"
+            id="disc"
+            placeholder="Описание"
+            required
+          ></textarea>
+          <input
+            class="add-hero-card__card-data"
+            type="text"
+            id="id"
+            placeholder="Код героя"
+            required
+          />
+          <input
+            type="text"
+            class="add-hero-card__card-data"
+            id="provider"
+            placeholder="Поставщик"
+            required
+          />
+          <input
+            type="button"
+            class="add-hero-card__add-btn"
+            value="Добавить"
+            onclick="addCard()"
+          />
+          <input
+            type="button"
+            class="add-hero-card__add-btn btn_hidden"
+            value="Изменить"
+            onclick="changeCard()"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <div class="showcase">
+          <div class="showcase__header">
+            <div class="showcase__title">
+              <p>Сесть за столик</p>
+            </div>
+            <button class="delete-btn" onclick="deleteCardScript()">
+              Выбрать
+            </button>
+          </div>
+          <div class="showcase__inner"></div>
+        </div>
+      </div>
+    </div>
+    <div class="loader">
+      <div class="loader__inner"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

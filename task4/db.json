@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Иллидан",
+      "description": "Временно у Саргераса",
+      "img": "https://kalix.club/uploads/posts/2022-12/1671763652_kalix-club-p-illidan-art-vkontakte-5.png",
+      "code": 1,
+      "provider": "ОАО Элуна prod."
+    },
+    {
+      "id": 2,
+      "title": "Артас",
+      "description": "Власть, которая и не снилась его отцу",
+      "img": "https://static.wikia.nocookie.net/beecher/images/6/6c/Fuckarthas.jpg/revision/latest/scale-to-width-down/1200?cb=20150707214720",
+      "code": 2,
+      "provider": "ИП Теренас"
+    },
+    {
+      "id": 3,
+      "title": "Рексар",
+      "description": "Всегда один",
+      "img": "https://i.ytimg.com/vi/LlQnaetQvYo/maxresdefault.jpg",
+      "code": 3,
+      "provider": "АО Оргиммар"
+    },
+    {
+      "id": 4,
+      "title": "Тиранда",
+      "description": "Горячая чикса",
+      "img": "https://i.playground.ru/p/zSQ_qqNT8Lf_EziIS51QaQ.jpeg",
+      "code": 4,
+      "provider": "ООО Дарнасс"
+    },
+    {
+      "id": 5,
+      "title": "Джайна",
+      "description": "Ее интересует только магия",
+      "img": "https://w.forfun.com/fetch/e3/e3272736cc4684929cd4acea7dbf4505.jpeg",
+      "code": 5,
+      "provider": "ОАО Даларан"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Анна Головань",
+    "group": "6409",
+    "repo": "https://github.com/MIRANAMN"
+  }
+}
